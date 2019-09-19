@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-21T14:46:18 CDT" name="Surefire suite" finished-at="2019-08-21T14:47:16 CDT" duration-ms="58066">
+    <groups>
+    </groups>
+    <test started-at="2019-08-21T14:46:18 CDT" name="Surefire test" finished-at="2019-08-21T14:47:16 CDT" duration-ms="58066">
+      <class name="Fidelity.HelpandSupportTest">
+        <test-method signature="login()[pri:0, instance:Fidelity.HelpandSupportTest@52f759d7]" started-at="2019-08-21T14:46:59 CDT" name="login" finished-at="2019-08-21T14:47:13 CDT" duration-ms="14223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="validatehelpandSupport()[pri:0, instance:Fidelity.HelpandSupportTest@52f759d7]" started-at="2019-08-21T14:47:13 CDT" name="validatehelpandSupport" finished-at="2019-08-21T14:47:16 CDT" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatehelpandSupport -->
+        <test-method is-config="true" signature="validateclosewindow()[pri:0, instance:Fidelity.HelpandSupportTest@52f759d7]" started-at="2019-08-21T14:47:16 CDT" name="validateclosewindow" finished-at="2019-08-21T14:47:16 CDT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateclosewindow -->
+      </class> <!-- Fidelity.HelpandSupportTest -->
+      <class name="Fidelity.loginTest">
+        <test-method signature="login()[pri:0, instance:Fidelity.loginTest@42eca56e]" started-at="2019-08-21T14:46:41 CDT" name="login" finished-at="2019-08-21T14:46:49 CDT" duration-ms="8116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="registration()[pri:0, instance:Fidelity.loginTest@42eca56e]" started-at="2019-08-21T14:46:49 CDT" name="registration" finished-at="2019-08-21T14:46:59 CDT" duration-ms="9687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="validateclosewindow()[pri:0, instance:Fidelity.loginTest@42eca56e]" started-at="2019-08-21T14:47:16 CDT" name="validateclosewindow" finished-at="2019-08-21T14:47:16 CDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateclosewindow -->
+      </class> <!-- Fidelity.loginTest -->
+      <class name="Fidelity.AppTest">
+        <test-method signature="testApp()[pri:0, instance:Fidelity.AppTest@2db7a79b]" started-at="2019-08-21T14:46:18 CDT" name="testApp" finished-at="2019-08-21T14:46:18 CDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- Fidelity.AppTest -->
+      <class name="Fidelity.PensionsTest">
+        <test-method signature="login()[pri:0, instance:Fidelity.PensionsTest@6950e31]" started-at="2019-08-21T14:46:18 CDT" name="login" finished-at="2019-08-21T14:46:24 CDT" duration-ms="5430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="validateincomeoptions()[pri:0, instance:Fidelity.PensionsTest@6950e31]" started-at="2019-08-21T14:46:24 CDT" name="validateincomeoptions" finished-at="2019-08-21T14:46:26 CDT" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateincomeoptions -->
+        <test-method is-config="true" signature="validateclosewindow()[pri:0, instance:Fidelity.PensionsTest@6950e31]" started-at="2019-08-21T14:47:16 CDT" name="validateclosewindow" finished-at="2019-08-21T14:47:16 CDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateclosewindow -->
+      </class> <!-- Fidelity.PensionsTest -->
+      <class name="Fidelity.sharesTest">
+        <test-method signature="login()[pri:0, instance:Fidelity.sharesTest@b7dd107]" started-at="2019-08-21T14:46:26 CDT" name="login" finished-at="2019-08-21T14:46:31 CDT" duration-ms="5164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="validatesharespage()[pri:0, instance:Fidelity.sharesTest@b7dd107]" started-at="2019-08-21T14:46:31 CDT" name="validatesharespage" finished-at="2019-08-21T14:46:41 CDT" duration-ms="10497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesharespage -->
+        <test-method is-config="true" signature="validateclosewindow()[pri:0, instance:Fidelity.sharesTest@b7dd107]" started-at="2019-08-21T14:47:16 CDT" name="validateclosewindow" finished-at="2019-08-21T14:47:16 CDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateclosewindow -->
+      </class> <!-- Fidelity.sharesTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

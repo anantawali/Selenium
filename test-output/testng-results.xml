@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-11T15:55:13 CDT" name="Default suite" finished-at="2019-09-11T15:55:16 CDT" duration-ms="2964">
+    <groups>
+    </groups>
+    <test started-at="2019-09-11T15:55:13 CDT" name="Default test" finished-at="2019-09-11T15:55:16 CDT" duration-ms="2964">
+      <class name="Fidelity.HelpandSupportTest">
+        <test-method signature="login()[pri:0, instance:Fidelity.HelpandSupportTest@117e949d]" started-at="2019-09-11T15:55:13 CDT" name="login" finished-at="2019-09-11T15:55:16 CDT" duration-ms="2913" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Anantas-Macbook-Codal.local', ip: '2603:300a:235c:8000:0:0:0:6b51%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver 5                      0x00000001007ad319 chromedriver 5 + 3597081
+1   chromedriver 5                      0x000000010073cf73 chromedriver 5 + 3137395
+2   chromedriver 5                      0x00000001004e8c6f chromedriver 5 + 695407
+3   chromedriver 5                      0x00000001004569eb chromedriver 5 + 96747
+4   chromedriver 5                      0x0000000100452a98 chromedriver 5 + 80536
+5   chromedriver 5                      0x000000010047f0b9 chromedriver 5 + 262329
+6   chromedriver 5                      0x000000010047c6d3 chromedriver 5 + 251603
+7   chromedriver 5                      0x0000000100458a6a chromedriver 5 + 105066
+8   chromedriver 5                      0x0000000100459ac5 chromedriver 5 + 109253
+9   chromedriver 5                      0x000000010076bf85 chromedriver 5 + 3329925
+10  chromedriver 5                      0x0000000100777890 chromedriver 5 + 3377296
+11  chromedriver 5                      0x0000000100777628 chromedriver 5 + 3376680
+12  chromedriver 5                      0x000000010074b769 chromedriver 5 + 3196777
+13  chromedriver 5                      0x0000000100778108 chromedriver 5 + 3379464
+14  chromedriver 5                      0x000000010075f957 chromedriver 5 + 3279191
+15  chromedriver 5                      0x0000000100794a94 chromedriver 5 + 3496596
+16  chromedriver 5                      0x00000001007b3047 chromedriver 5 + 3620935
+17  libsystem_pthread.dylib             0x00007fff7ad32661 _pthread_body + 340
+18  libsystem_pthread.dylib             0x00007fff7ad3250d _pthread_body + 0
+19  libsystem_pthread.dylib             0x00007fff7ad31bf9 thread_start + 13
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Anantas-Macbook-Codal.local', ip: '2603:300a:235c:8000:0:0:0:6b51%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver 5                      0x00000001007ad319 chromedriver 5 + 3597081
+1   chromedriver 5                      0x000000010073cf73 chromedriver 5 + 3137395
+2   chromedriver 5                      0x00000001004e8c6f chromedriver 5 + 695407
+3   chromedriver 5                      0x00000001004569eb chromedriver 5 + 96747
+4   chromedriver 5                      0x0000000100452a98 chromedriver 5 + 80536
+5   chromedriver 5                      0x000000010047f0b9 chromedriver 5 + 262329
+6   chromedriver 5                      0x000000010047c6d3 chromedriver 5 + 251603
+7   chromedriver 5                      0x0000000100458a6a chromedriver 5 + 105066
+8   chromedriver 5                      0x0000000100459ac5 chromedriver 5 + 109253
+9   chromedriver 5                      0x000000010076bf85 chromedriver 5 + 3329925
+10  chromedriver 5                      0x0000000100777890 chromedriver 5 + 3377296
+11  chromedriver 5                      0x0000000100777628 chromedriver 5 + 3376680
+12  chromedriver 5                      0x000000010074b769 chromedriver 5 + 3196777
+13  chromedriver 5                      0x0000000100778108 chromedriver 5 + 3379464
+14  chromedriver 5                      0x000000010075f957 chromedriver 5 + 3279191
+15  chromedriver 5                      0x0000000100794a94 chromedriver 5 + 3496596
+16  chromedriver 5                      0x00000001007b3047 chromedriver 5 + 3620935
+17  libsystem_pthread.dylib             0x00007fff7ad32661 _pthread_body + 340
+18  libsystem_pthread.dylib             0x00007fff7ad3250d _pthread_body + 0
+19  libsystem_pthread.dylib             0x00007fff7ad31bf9 thread_start + 13
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:127)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:129)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:210)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:73)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+at Fidelity.Base.intializedriver(Base.java:28)
+at Fidelity.HelpandSupportTest.login(HelpandSupportTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="validatehelpandSupport()[pri:0, instance:Fidelity.HelpandSupportTest@117e949d]" started-at="2019-09-11T15:55:16 CDT" name="validatehelpandSupport" finished-at="2019-09-11T15:55:16 CDT" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Fidelity.HelpandSupport.searchbox(HelpandSupport.java:25)
+at Fidelity.HelpandSupportTest.validatehelpandSupport(HelpandSupportTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatehelpandSupport -->
+        <test-method is-config="true" signature="validateclosewindow()[pri:0, instance:Fidelity.HelpandSupportTest@117e949d]" started-at="2019-09-11T15:55:16 CDT" name="validateclosewindow" finished-at="2019-09-11T15:55:16 CDT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Fidelity.HelpandSupportTest.validateclosewindow(HelpandSupportTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
+at org.testng.TestRunner.afterRun(TestRunner.java:853)
+at org.testng.TestRunner.run(TestRunner.java:594)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateclosewindow -->
+      </class> <!-- Fidelity.HelpandSupportTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
